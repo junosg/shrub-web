@@ -26,6 +26,7 @@ const shrubs: Array<string> = ['Math Grades'];
 #tool-main {
     padding: 1em;
     background-color: rgb(221, 221, 221);
+    height: max-content;
 }
 
 #tool-container {

@@ -1,6 +1,6 @@
 <template>
 <div id="tool-left-container">
-    <div class="title">Shrubs <AddShrubModal></AddShrubModal></div>
+    <div class="title">Data Shrubs <AddShrubModal></AddShrubModal></div>
     <div class="shrubs-list">
         <div v-for="shrub in shrubs">
             <button @click="setCurrentShrub(shrub)">{{shrub}}</button>

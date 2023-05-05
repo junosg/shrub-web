@@ -12,6 +12,9 @@
     
 <style>
 :root {
+    --main-bg-color: white;
+    --secondary-bg-color: rgb(221, 221, 221);
+    --tertiary-bg-color: rgb(48, 71, 94);
     --main-font-color: rgb(48, 71, 94);
     --main-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     --button-font-color: rgb(240, 84, 84);
@@ -46,6 +49,7 @@ button {
 }
 
 button:hover {
+    cursor: pointer;
     background-color: var(--button-border-color);
     color: white;
 }
@@ -57,10 +61,25 @@ button:active {
 input {
     all: unset;
     border: 1px solid var(--button-border-color);
-    color: rgb(240, 84, 84);
+    color: var(--main-font-color);
     font-size: small;
     font-weight: normal;
     padding: .5em;
     border-radius: .5em; 
+}
+
+select {
+    all: unset;
+    border: 1px solid var(--button-border-color);
+    color: var(--main-font-color);
+    font-size: small;
+    font-weight: normal;
+    width: 10em;
+    padding: .5em;
+    border-radius: .5em;
+}
+
+select:hover {
+    cursor: pointer;
 }
 </style>

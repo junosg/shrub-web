@@ -53,7 +53,7 @@ const doneAdding = () => {
     gap: .5em;
     z-index: 10;
     height: 5em;
-    width: 20em;
+    width: 25em;
     background-color: white;
     border: .1px solid black;
     border-radius: .5em;
